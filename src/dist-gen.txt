@@ -1,0 +1,2 @@
+pyinstaller --onefile --windowed --icon=fpdf-iconlogo.png  featherpdf.py
+
