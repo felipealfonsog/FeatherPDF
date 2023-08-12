@@ -43,13 +43,14 @@ Before you begin, ensure you have met the following requirements:
   brew install pyqt@5
   ```
 
-<!-- 
+
 #### Screenshots
 
 [![View Screenshots](https://img.shields.io/badge/View-Screenshots-blue)](#)
 
-![Screenshot of the application interface](images/linux/sshot-termpdf-1.jpg)
+![Screenshot of the application interface](images/sshot-fpdf-1.0.0.png)
 
+<!-- 
 ![Screenshot of the application interface](images/linux/sshot-termpdf-4.jpg)
 --> 
 <!-- 
