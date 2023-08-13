@@ -1,3 +1,74 @@
+'''
+
+
+╔═══╗─────╔╗╔╗──────╔═══╦═══╦═══╗
+║╔══╝────╔╝╚╣║──────║╔═╗╠╗╔╗║╔══╝
+║╚══╦══╦═╩╗╔╣╚═╦══╦═╣╚═╝║║║║║╚══╗
+║╔══╣║═╣╔╗║║║╔╗║║═╣╔╣╔══╝║║║║╔══╝
+║║──║║═╣╔╗║╚╣║║║║═╣║║║──╔╝╚╝║║
+╚╝──╚══╩╝╚╩═╩╝╚╩══╩╝╚╝──╚═══╩╝
+╔╗──────╔╗─╔╗───────────╔╗─╔╗─╔═══╦═══╦═══╗╔╗──╔╗
+║║──────║║╔╝╚╗──────────║║╔╝╚╗║╔═╗╠╗╔╗║╔══╝║╚╗╔╝║
+║║──╔╦══╣╚╩╗╔╣╔╗╔╦══╦╦══╣╚╩╗╔╝║╚═╝║║║║║╚══╗╚╗║║╔╬══╦╗╔╗╔╦══╦═╗
+║║─╔╬╣╔╗║╔╗║║╚╝╚╝║║═╬╣╔╗║╔╗║║─║╔══╝║║║║╔══╝─║╚╝╠╣║═╣╚╝╚╝║║═╣╔╝
+║╚═╝║║╚╝║║║║╚╗╔╗╔╣║═╣║╚╝║║║║╚╗║║──╔╝╚╝║║────╚╗╔╣║║═╬╗╔╗╔╣║═╣║
+╚═══╩╩═╗╠╝╚╩═╩╝╚╝╚══╩╩═╗╠╝╚╩═╝╚╝──╚═══╩╝─────╚╝╚╩══╝╚╝╚╝╚══╩╝
+─────╔═╝║────────────╔═╝║
+─────╚══╝────────────╚══╝
+
+*************************************************
+FeatherPDF - Lightweight PDF Viewer
+-
+This project is licensed under the MIT License.
+*************************************************
+*  FeatherPDF is an ultra-lightweight PDF viewer designed for Linux 
+and macOS. It provides a simple and intuitive user interface for 
+reading PDF documents. The project aims to offer a fast and minimalistic 
+PDF reading experience while using minimal system resources.
+*************************************************
+* Developed and engineered by:
+* Felipe Alfonso Gonzalez <f.alfonso@res-ear.ch>
+* Computer Science Engineer
+* Chile
+*************************************************
+* Prerequisites:
+* Python 3.x: The program is written in Python and requires a Python 3.x interpreter to run.
+* PyMuPDF & PyQt5: A Python binding for the MuPDF library, used to handle PDF file rendering and interaction.
+*   You can install it using pip: pip install PyMuPDF python-pyqt5
+*   Make sure to include the appropriate model or adapt it for your needs.
+*************************************************
+* How to run the FeatherPDF :
+
+* Clone the FeatherPDF repository from GitHub.
+* Navigate to the project directory:
+
+* cd FeatherPDF/src
+
+* Install specific libraries (if not already installed):
+  
+  pip install python
+  pip install python-pyqt5
+  pip install PyMuPDF
+
+* Run the FeatherPDF:
+* python featherpdf.py
+
+    Open and view PDF files with ease.
+    Navigate through pages using on-screen controls or mouse scroll.
+    Zoom in and out for comfortable reading.
+    Return to the first page or navigate to the next/previous pages.
+    Responsive and intuitive user interface.
+    MIT Licensed - Free and open-source.
+*
+*************************************************
+* Important Notes:
+* - The application has been tested on Linux and macOS.
+* - For Windows, additional configurations may be required.
+* - Make sure to fulfill the prerequisites before running the application.
+* - For more information, please refer to the project documentation.
+*************************************************
+'''
+
 
 import sys
 from PyQt5.QtCore import Qt
@@ -219,7 +290,8 @@ class FeatherPDF(QMainWindow):
 
     def showCredits(self):
         credits_text = (
-            "Feather PDF: A PDF Viewer with a simple UI and very lightweight. Developed with love from Santiago, Chile.\n\n"
+            "Feather PDF: A PDF Viewer with a simple UI and very lightweight. Developed with love from Santiago, Chile.\n"
+            "v.1.0.0-1\n\n"
             "Created by Felipe Alfonso Gonzalez\n"
             "Computer Science Engineer\n"
             "Email: f.alfonso@res-ear.ch\n"
