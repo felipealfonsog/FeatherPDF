@@ -128,7 +128,9 @@ This is an experimental project aimed at bringing a PDF viewer or reader to the 
 
 This project is still in its experimental (v.0.0.2 - not yet as a 1.0.0 version) stage and may have limitations in terms of features and compatibility. Use at your own discretion.
 
+#### NOTES
 
+To generate the binary: 
 
 ```
 pyinstaller --onefile featherpdf.py
