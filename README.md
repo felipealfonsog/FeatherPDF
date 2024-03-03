@@ -97,7 +97,7 @@ FeatherPDF is available on AUR (Arch User Repository), and it can be installed u
    ```
    sudo pacman -S yay
    ```
-   Once yay is installed, you can install Term Notes by running the following command:
+   Once yay is installed, you can install by running the following command:
    
    ```
    yay -S feather-pdf
