@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=FeatherPDF
+Comment=Ultra-lightweight PDF viewer
+Exec=feather-pdf
+Icon=feather-pdf
+Terminal=false
+Categories=Office;Utility;
