@@ -4,7 +4,7 @@
 FeatherPDF is an ultra-lightweight PDF viewer designed for Linux and macOS. It provides a simple and intuitive user interface for reading PDF documents. The project aims to offer a fast and minimalistic PDF reading experience while using minimal system resources.
 
 
-<img src="./images/fpdf-iconlogo-2.png" alt="FeatherPDF Logo" width="75" height="75">
+<img src="./images/fpdf-iconlogo-2.1.png" alt="FeatherPDF Logo" width="75" height="75">
 
 
 ![Version](https://img.shields.io/github/release/felipealfonsog/FeatherPDF.svg?style=flat&color=blue)
